@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 import ButtonsLocationComponent from './components/ButtonsLocation'
 import ButtonsTempComponent from './components/ButtonsTemp'
@@ -10,10 +10,10 @@ import TodayComponent from './components/Today'
 
 const App = () => {
 
-  const [userCoords, setUserCoords] = useState(null)
+  // const [userCoords, setUserCoords] = useState(null)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isCentigrade, setIsCentigrade] = useState(true)
-  const [woeid, setWoeid] = useState(null)
+  // const [woeid, setWoeid] = useState(null)
 
   // useEffect(() => {
   //   if('geolocation' in navigator) {
